@@ -41,7 +41,6 @@ namespace WTM_Demo
 
         public static IHostBuilder CreateWebHostBuilder(string[] args)
         {
-
             return
                 Host.CreateDefaultBuilder(args)
                 .ConfigureLogging((hostingContext, logging) =>

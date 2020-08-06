@@ -49,7 +49,6 @@ namespace WTM_Demo
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-
             var configs = app.ApplicationServices.GetRequiredService<Configs>();
             if (configs.IsQuickDebug == true)
             {
